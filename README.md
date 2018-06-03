@@ -11,7 +11,7 @@
 - makes a file main.m (Objective-C file) in current directory
 - main.m has already Ocjective-C template inside
 
-### objc script
+#### objc script
 - compiles *.m files in current directory
 - makes executable file a.out
 - runs a.out file if compilation was correct

@@ -1,6 +1,5 @@
 # objective-c
 # This shell scripts help you to run Objective-C on your linux machine
-___
 
 ## What do you need?
 - installed GNUStep https://www.techotopia.com/index.php/Installing_and_Using_GNUstep_and_Objective-C_on_Linux

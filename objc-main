@@ -1,0 +1,12 @@
+#!/bin/bash
+# Set up enviroment to make Objective-C project
+# make main.m file
+
+# Remove main.m if exist
+if [ -e main.m ]; then
+	echo 'main.m is already in this folder'
+else
+	# Copy main.m from template
+	cp ~/bin/objc-files/main.m $PWD
+fi
+

@@ -1,0 +1,14 @@
+#!/bin/bash
+# compile Objective-C with GNUStep and clang
+
+{
+	# compile
+	clang -std=gnu99 *.m  -I/usr/include/GNUstep -L/usr/lib/GNUstep -lobjc -lgnustep-base -Wall -fconstant-string-class=NSConstantString -fblocks -lBlocksRuntime -lm
+} && {
+	# run Objective-C program, only if compilation was fine
+	./a.out
+}
+
+
+
+

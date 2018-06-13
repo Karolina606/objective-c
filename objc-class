@@ -1,0 +1,19 @@
+#!/bin/bash
+# Make *.h and *.m for Objective-C class
+
+# Remove CLASS.h or CLASS.m exist
+if [ -e $1.h ]; then
+	echo $1'.h is already in this folder'
+else
+    # Copy class interface file
+    cp ~/bin/objc-files/Class.h $PWD
+    mv Class.h $1.h
+fi
+
+if [ -e $1.m ]; then
+	echo $1'.m is already in this folder'
+else
+    # Copy class implementation file
+    cp ~/bin/objc-files/Class.m $PWD
+    mv Class.m $1.m
+fi
